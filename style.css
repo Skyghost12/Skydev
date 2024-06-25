@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:roboto;
+    background-color:#00020e;
+    
+    
+}
+.header {
+    margin:0px;
+    
+    width:100%;
+    height: auto;
+}
+.header h1{
+    color:#002dff;
+    margin: 0;
+    display: flex ;
+}
+ .highlight{
+    color:#179700;
+}
+ .navbar ul{
+   margin:2px;
+   
+}
+.navbar li{
+    display: inline ;
+    float:left;
+    padding: 0 6px 0 6px;
+    margin:2px;
+   
+}
+.navbar a{
+    text-decoration:none;
+    text-transform: uppercase ;
+    font-size:17px;
+    color:#179700;
+}
+a:hover{
+    color:#002dff;
+}
+
+.showcase{
+    
+    color:#002dff;
+    margin-top:90px;
+    padding:10px 0;    
+    text-align: center ;
+    font-size:18px;
+    font-family: fantasy ;
+}
+ .green{
+    color:#179700;
+}
+ .pink{
+    color:#a4009b;
+}
+
+#hello{
+  border: 1px solid black;
+  width: 350px;
+  height: 100px;
+  animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+  50% {font-size: 40px;}
+}
+.showcase p{
+    margin-top:90px;
+    font-size:20px;
+    color:#ffff;
+    
+}
+
+/* about us*/
+.about_us{
+    color:#fff;
+}
+
+.about_us h2{
+    color:#a4009b;
+    text-align: center ;
+    font-size:50px;
+}
+.about_us p{
+    font-size:35px;
+    font-family: fantasy;
+    text-align: center ;
+    color:#002dff;
+}
+
+.img{
+    justify-content: center ;
+    width: 300px;
+    background-color: transparent ;
+}
+
+/* our service */
+.ourservice{
+    margin: 5px;
+    padding: 10px 0;
+    text-align: center ;
+}
+.ourservice h2{
+    color:#a4009b;
+    text-align: center ;
+    font-size:50px;
+}
+.ourservice p{
+    text-align: center ;
+    font-size:35px;
+    font-family: fantasy;
+    color:#002dff;
+    }
+    
+    .ourservice h3{
+        color:#a4009b;
+    text-align: center ;
+    font-size:30px;
+    }
+
+/* contact us*/
+.contact h2{
+    color:#a4009b;
+    text-align: center ;
+    font-size:50px;
+}
+.contact p{
+    font-size:35px;
+    font-family: fantasy;
+    text-align: center ;
+    color:#002dff;
+}
+
+/* newsletter */
+  .newsletter{
+        justify-content: center ;
+        text-align: center ;
+    }
+    
+    
+  fieldset{
+      padding: 20px;
+      margin: 20px 0;
+      border:3px solid white;
+  }
+  legend{
+      padding: 10px;
+      font-size:15px;
+      letter-spacing:0.1em;
+      color:#a4009b;
+  }
+        
+    input[type="email"],
+    input[type="name"]{
+        display: block ;
+        margin-bottom:20px;
+        padding: 10px 10px 10px 10px;
+        border:0;
+        border-radius: 4px;
+        background-color:#222;
+        color: white;
+        outline:none;
+    }
+    input[type="text"]{
+        padding: 10px 10px 10px 10px;
+        border:none;
+        border-radius: 3px;
+        background:#222;
+        color:white;
+        outline:none;
+        margin-bottom: 20px;
+        display: block ;
+    }
+    .btn{
+       border:0;
+       padding: 10px 0;
+       background-color:#0003ff;
+       color:#ffff;
+       width: 30%;
+       border-radius: 5px;
+       font-weight:bold;
+       font-size:15px;
+       display: block ;
+    }
+    .btn:hover{
+        background-color:#179700;
+        transition:1s;
+    }
+ 
+    
+footer{
+        text-align: center ;
+        color :#0003ff;
+        font-size:18px;
+    }
+    footer h3{
+        color:#ffff;
+        padding: 20px;
+    }
